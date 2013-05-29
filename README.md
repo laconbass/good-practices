@@ -25,7 +25,7 @@ Part 1: The development process
 
 Developing a website or web app is, essentially, developing software. The human knowledge about the software development process has evolved during the years, looking for processes that improve productivity and quality. It's important to study this evolution and conclude what we will use on our daily practices.
 
-There are lots of articles and books to read about this topic. As a quick start and overview, [this article on wikipedia](http://en.wikipedia.org/wiki/Software_development_process]) and ones refererenced from it.
+There are lots of articles and books to read about this topic. As a quick start and overview, [this article on wikipedia](http://en.wikipedia.org/wiki/Software_development_process) and ones refererenced from it.
 
 Reading about this topic raises to the foreground the benefits of following a *software development method*.
 

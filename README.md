@@ -29,21 +29,69 @@ There are lots of articles and books to read about this topic. As a quick start 
 
 Reading about this topic raises to the foreground the benefits of following a *software development method*.
 
-## The software development method ##
+## The software development methodology ##
 [This presentation written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and the existing key methodologies. It also gives the keys to decide the methodology to be used for a concrete project.
 
 ### Dilemma ###
-Choosing the right software development method depends on each project. 
-.
+
+Choose a development methodology.
+
+- Classical or heavy methodologies
+    * Waterfall
+    * Unified Process
+    * Spiral
+- Light or agile methodologies.
+    * Scrum
+    * Xtreme programming (XP)
+
+Notice the turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
+
+First, we must decide
+
 Light vs Heavy methodologies.
 
 ### Conclusion ###
-The methodologies known as *agile methodologies*, which derive from [the agile manifesto](http://agilemanifesto.org/), seem to be th
+
+Choosing the right software development methodology depends on each project.
+
+The methodologies known as *agile methodologies*, which derive from , seem to be the better for web development for as:
+
+1. 
+
+Key project characteristics considered:
+- Size of the project team
+- Rate of expected change 
+- Primary project goal
+- Requirement Management
+- Project Communication
+- Customer Relationship 
+- Customer Organizational Culture Project Characteristic Analysis
+General comments:
+- A decision tree analysis is used to compare various 
+methodologies
+- They do not constitute parts of one large decision tree- it is a 
+one-dimensional analysis
+- The ranking of the seven characteristics would have to be 
+done by the project manager and architect with the assistance 
+of the project leaders.
+- The results are not meant to be a substitute for sound project 
+management and technical direction but as guidelines for 
+practitioners. 
+- The methodology used can also depends on the customer 
+request
 
 # Topics to write about #
 
+## Software design patterns ##
 MVC vs MVA: http://www.palantir.com/2009/04/model-view-adapter/
+MVA != [MVP](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
 
+## Programming languages ##
+
+[the book *learning node*, by Shelley Powers](http://shop.oreilly.com/product/0636920024606)
+[the article *Node: References and resources*, by Shelley Powers](http://tech.burningbird.net/article/node-references-and-resources)
+
+Interaction design & User experience: http://www.interaction-design.org/
 * The development process
     * Common tasks, phases, activities, or processes
         * Planing, Analysis, objective/requeriments definition or Planing and Analysis

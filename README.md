@@ -1,6 +1,10 @@
 Web development best practices
 ==============================
 
+## License ##
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
+
 ## Notice to the reader ##
 
 This document stores my thoughts so most of the conclusions are subjective, althought most of them are based on articles linked here and there.
@@ -11,7 +15,10 @@ Ensure to read news often and evolve your best practices manual continuosly as I
 
 ## Structure of this document ##
 
-This document has several parts which group topics and provide resources to introduce them.
+This document has several parts which group topics and provide resources to introduce them. Each topic has a two special subsections:
+
+- *Dilemma*: A decision that must be done. Introduces the existing solutions.
+- *Conclusion*: The decision and arguments for how and why. If needed, a new option is created here, either from scratch or by merging some of the existing ones.
 
 Part 1: The development process
 ===============================
@@ -23,16 +30,19 @@ There are lots of articles and books to read about this topic. As a quick start 
 Reading about this topic raises to the foreground the benefits of following a *software development method*.
 
 ## The software development method ##
-
-Choosing the right software development method depends on each project. [This presentation written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) gives some clues to make such a decision.
+[This presentation written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and the existing key methodologies. It also gives the keys to decide the methodology to be used for a concrete project.
 
 ### Dilemma ###
+Choosing the right software development method depends on each project. 
+.
 Light vs Heavy methodologies.
 
 ### Conclusion ###
 The methodologies known as *agile methodologies*, which derive from [the agile manifesto](http://agilemanifesto.org/), seem to be th
 
 # Topics to write about #
+
+MVC vs MVA: http://www.palantir.com/2009/04/model-view-adapter/
 
 * The development process
     * Common tasks, phases, activities, or processes

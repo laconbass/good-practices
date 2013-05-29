@@ -15,7 +15,7 @@ Ensure to read news often and evolve your best practices manual continuosly as I
 
 ## Structure of this document ##
 
-This document has several parts which group topics and provide resources to introduce them. Each topic has a two special subsections:
+This document has several parts which group topics and provide resources to introduce them. Each topic has two special subsections:
 
 - *Dilemma*: A decision that must be done. Introduces the existing solutions.
 - *Conclusion*: The decision and arguments for how and why. If needed, a new option is created here, either from scratch or by merging some of the existing ones.
@@ -25,12 +25,21 @@ Part 1: The development process
 
 Developing a website or web app is, essentially, developing software. The human knowledge about the software development process has evolved during the years, looking for processes that improve productivity and quality. It's important to study this evolution and conclude what we will use on our daily practices.
 
-There are lots of articles and books to read about this topic. As a quick start and overview, [this article on wikipedia](http://en.wikipedia.org/wiki/Software_development_process) and ones refererenced from it.
+There are lots of articles and books to read about this topic. A good quick start point, as overview, is [this article on wikipedia](http://en.wikipedia.org/wiki/Software_development_process), and its references.
 
 Reading about this topic raises to the foreground the benefits of following a *software development method*.
 
 ## The software development methodology ##
-[This presentation written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and the existing key methodologies. It also gives the keys to decide the methodology to be used for a concrete project.
+
+[This slide show written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and some existing key methodologies. It also gives keys to decide the methodology to be used for a concrete project, but before taking
+
+Notice the slide show presents two approaches:
+* The classical ones, also known as *heavy*.
+* The newer ones, also known as *light* or *agile*.
+
+Notice the turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
+
+TEST DRIVEN DEVELOPMENT
 
 ### Dilemma ###
 
@@ -40,11 +49,9 @@ Choose a development methodology.
     * Waterfall
     * Unified Process
     * Spiral
-- Light or agile methodologies.
+- Light or agile methodologies
     * Scrum
     * Xtreme programming (XP)
-
-Notice the turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
 
 First, we must decide
 
@@ -54,7 +61,7 @@ Light vs Heavy methodologies.
 
 Choosing the right software development methodology depends on each project.
 
-The methodologies known as *agile methodologies*, which derive from , seem to be the better for web development for as:
+The agile methodologies seem to be the better for web development for the following reasons:
 
 1. 
 
@@ -83,10 +90,24 @@ request
 # Topics to write about #
 
 ## Software design patterns ##
+
 MVC vs MVA: http://www.palantir.com/2009/04/model-view-adapter/
 MVA != [MVP](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
 
-## Programming languages ##
+## Software development process ##
+Test Driven Development
+http://c2.com/cgi/wiki?TestDrivenDevelopment
+wikipedia?
+
+## Programming principles ##
+
+Don't Repeat Yourself - http://programmer.97things.oreilly.com/wiki/index.php/Don't_Repeat_Yourself
+Keep It Simple Stupid - http://people.apache.org/~fhanik/kiss.html
+You Aren't Gonna Need It - http://en.wikipedia.org/wiki/You_Aren%27t_Gonna_Need_It
+
+Abstraction principle <=> Rule of three
+
+## Programming language ##
 
 [the book *learning node*, by Shelley Powers](http://shop.oreilly.com/product/0636920024606)
 [the article *Node: References and resources*, by Shelley Powers](http://tech.burningbird.net/article/node-references-and-resources)

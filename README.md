@@ -29,65 +29,47 @@ Developing a website or web app is, essentially, developing software. The human 
 
 There are lots of articles and books to read about this topic. A good quick start point, as overview, is [this article on wikipedia](http://en.wikipedia.org/wiki/Software_development_process), and its references.
 
-Reading about this topic raises to the foreground the benefits of following a *software development method*.
-
-## The software development methodology ##
-
-[This slide show written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and some existing key methodologies. It also gives keys to decide the methodology to be used for a concrete project, but before taking
-
-Notice the slide show presents two approaches:
-* The classical ones, also known as *heavy*.
-* The newer ones, also known as *light* or *agile*.
-
-Notice the turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
-
-TEST DRIVEN DEVELOPMENT
-
-### Dilemma ###
-
-Choose a development methodology.
-
-- Classical or heavy methodologies
-    * Waterfall
-    * Unified Process
-    * Spiral
-- Light or agile methodologies
-    * Scrum
-    * Xtreme programming (XP)
-
-First, we must decide
-
-Light vs Heavy methodologies.
+Reading about this topic raises to the foreground the concept of *software development methodology*.
 
 ### Conclusion ###
 
-Choosing the right software development methodology depends on each project.
+## The software development methodology ##
 
-The agile methodologies seem to be the better for web development for the following reasons:
+[This slide show written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and some existing key methodologies. It also gives keys to decide the methodology to be used for a concrete project.
 
-1. 
+Notice the slide show presents two approaches: The classical ones, also known as *heavy*, and the newer ones, also known as *light* or *agile*. The turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
 
-Key project characteristics considered:
-- Size of the project team
-- Rate of expected change 
-- Primary project goal
-- Requirement Management
-- Project Communication
-- Customer Relationship 
-- Customer Organizational Culture Project Characteristic Analysis
-General comments:
-- A decision tree analysis is used to compare various 
-methodologies
-- They do not constitute parts of one large decision tree- it is a 
-one-dimensional analysis
-- The ranking of the seven characteristics would have to be 
-done by the project manager and architect with the assistance 
-of the project leaders.
-- The results are not meant to be a substitute for sound project 
-management and technical direction but as guidelines for 
-practitioners. 
-- The methodology used can also depends on the customer 
-request
+### Dilemma ###
+
+Should i follow a software development methodology? Which one should i choose?
+
+### Conclusion ###
+
+Definitely, following a development methodology I will improve the quality of the development process and optimize my productivity.
+
+The agile methodologies seem to fit better with web development for the following reasons:
+
+* The nature of a web app is to evolve continuously, as the web does.
+* (FREELANCE) The full process is done by small teams, often with only 1 programmer.
+* Often, the client does not know exactly what she wants. This implies there will probably be changes during the development.
+* To avoid wasting time, the client must be visited often to have feedback about the development progress.
+
+The methodology used should depend for each project theoretically. As any of them are well known to me, seems better to define a mix of the existing agile methodologies and use it for all the projects, while i'm evolving my experience on the matter.
+
+The methodology should focus on the teamwork, and be adapted to the size of the development team.
+
+* Scrum. It puts the focus on the teamwork and the interaction with the client.
+* Pomodoro Technique. It helps managing tasks and enhances productivity. Also helps to estimate the time that each task consumes.
+* Xtreme Programming, its principles and philosophy are the day-to-day working basis of a good programmer.
+* Test driven development is the best way to define objectives and reach them quickly.
+    * PRINCIPIOS¿?¿?
+    * TEST DRIVEN DEVELOPMENT
+
+-----
+
+The methodology should deal with the following:
+* Project management: Tasks and time.
+* Programming: principles, philosophy, and conventions.
 
 # Topics to write about #
 
@@ -147,4 +129,3 @@ Interaction design & User experience: http://www.interaction-design.org/
       
 
 * Project structure
-

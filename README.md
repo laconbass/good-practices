@@ -7,11 +7,13 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unpo
 
 ## Notice to the reader ##
 
-This document stores my thoughts so most of the conclusions are subjective, althought most of them are based on articles linked here and there.
+This document attempts to address the topics with objectivity, but the conclusions are subjective.
 
-Any developer should consider personally if agree or not each conclusion written here. Read further about each topic and make your own decissions.
+Conclusions are my personal criterion, formed after hours of self-taught reading of books and articles, and my experience and knowledge on programming.
 
-Ensure to read news often and evolve your best practices manual continuosly as I am trying to do here. Tomorrow something may have changed, or nothing, or everything.
+Any developer should consider personally if agree or not each conclusion written here. Read further about each topic and make your own decisions.
+
+Ensure to read news often and evolve your best practices manual continuously. Tomorrow something may have changed, or nothing, or everything.
 
 ## Structure of this document ##
 

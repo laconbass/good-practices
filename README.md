@@ -17,7 +17,7 @@ Ensure to read news often and evolve your best practices manual continuously. To
 
 ## Structure of this document ##
 
-This document has several parts which group topics and provide resources to introduce them. Each topic has two special subsections:
+This document has several parts which group topics and provide resources to introduce them. Each topic has special subsections:
 
 - *Dilemma*: A question representing a decision that must be done.
 - *Conclusion*: The decision and arguments for how and why.
@@ -27,9 +27,48 @@ Part 1: The development process
 
 Developing a website or web app is, essentially, developing software. The human knowledge about the software development process has evolved during the years, looking for processes that improve productivity and quality. It's important to study this evolution and conclude what we will use on our daily practices.
 
-There are lots of articles and books to read about this topic. A good quick start point, as overview, is [this article on wikipedia](http://en.wikipedia.org/wiki/Software_development_process), and its references.
+There are lots of articles and books to read about this topic. A good quick start point, as overview, is searching for [Software development process on Wikipedia](http://en.wikipedia.org/wiki/Software_development_process), and follow its references.
 
-Reading about this topic raises to the foreground the concept of *software development methodology*.
+Prior to introduce the concept of "*software development methodology*" and the benefits of following one,  we will identify the common activities or sub-processes of the development process.
+
+## Sub-processes of the software development process ##
+
+### Planing
+During this sub-process the primary task is define the *objectives*. Objectives are the features the software must have.
+
+### Analysis
+Given an objective, the goal is define the software requirements to accomplish it. To do that, analysts must keep in consideration the user types and its access limits to the app. This sub-process transforms *objectives* into *requirements*.
+
+### Design
+Given a *feature*, it's the moment to design how it's going to be implemented. Depending on the feature, several sub-processes are performed, each one producing as result different kind of *designs*.
+
+#### Content design
+Semantic web - http://schema.org/
+book: Information Architecture for the World Wide Web - O'Reilly
+* Sitemap
+* Definition and categorization of contents
+* Data model design
+     * conceptual design
+     * logic design
+     * implantation of the database
+
+#### Visual design
+The action of designing the *User Interface (UI)*. This process implies several sub-processes: 
+* Wireframing: The action of sketching the UI.
+* Iterations design: The action of designing how the UI responds to the user input.
+* Graphics design: The action of transforming *wireframes* onto a graphic design through art.
+
+### Implementation
+The writing of the code itself. On web development, *back-end* refers to the server-side code, while *front-end* refers to the client-side code. *Full-stack* refers to the whole application code. This sub-process transforms *designs* onto *features*.
+
+### Test, Verification or Evaluation
+This process ensures that the *features* meet the *requirements*. 
+
+### Deploy
+The action of deliver the software to the client.
+
+### Upkeep and Optimization
+This sub-process includes the tasks related to bug fixes and improvements on appearance or performance. 
 
 ## The software development methodology ##
 
@@ -56,7 +95,7 @@ The agile methodologies seem to fit better for web development for the following
 
 ### Dilema 2 ###
 
-There are lots of agile methodologies, but it seems Kanban, Scrum and XP are the best options as they are the most used. What methodology should i choose? The methodology should focus on the teamwork and be adapted to the size of the development team because sometimes I work as freelance, sometimes as a lone.
+There are lots of agile methodologies, but it seems *Kanban*, *Scrum* and *XP* are the best options as they are the most used. What methodology should i choose? The methodology should focus on the teamwork and be adapted to the size of the development team because sometimes I work as freelance, sometimes as a lone.
 
 ### Conclusion 2 ###
 
@@ -126,34 +165,9 @@ Abstraction principle <=> Rule of three
 
 Interaction design & User experience: http://www.interaction-design.org/
 * The development process
-    * Common tasks, phases, activities, or processes
-        * Planing, Analysis, objective/requeriments definition or Planing and Analysis
-          * Objectives definition
-          * Identify the user types and its access limits to the app
-          * Requirements list
-        * Design
-          * Content design
-            Semantic web - http://schema.org/
-            book: Information Architecture for the World Wide Web - O'Reilly
-              * Sitemap
-              * Definition and categorization of contents
-              * Data model design
-                  * conceptual design
-                  * logic design
-                  * implantation of the database
-          * Visual design
-              * wireframing
-              * iterations design
-              * graphics design
-        * Implementation
-          * back-end
-          * front-end
-        * Test, Verification or Evaluation
-        * Optimization
-        * Deploy
+    
     * choosing the software development method. 
     * Enhancing the methodology with support disciplines
-      http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf
       
 
 * Project structure

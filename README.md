@@ -1,5 +1,5 @@
-Web development best practices
-==============================
+My web development best practices manual
+========================================
 
 ## License ##
 
@@ -19,8 +19,8 @@ Ensure to read news often and evolve your best practices manual continuously. To
 
 This document has several parts which group topics and provide resources to introduce them. Each topic has two special subsections:
 
-- *Dilemma*: A decision that must be done. Introduces the existing solutions.
-- *Conclusion*: The decision and arguments for how and why. If needed, a new option is created here, either from scratch or by merging some of the existing ones.
+- *Dilemma*: A question representing a decision that must be done.
+- *Conclusion*: The decision and arguments for how and why.
 
 Part 1: The development process
 ===============================
@@ -31,47 +31,68 @@ There are lots of articles and books to read about this topic. A good quick star
 
 Reading about this topic raises to the foreground the concept of *software development methodology*.
 
-### Conclusion ###
-
 ## The software development methodology ##
 
 [This slide show written by Hamid Faridani](http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf) introduces well the concept of *software development methodology* and some existing key methodologies. It also gives keys to decide the methodology to be used for a concrete project.
 
-Notice the slide show presents two approaches: The classical ones, also known as *heavy*, and the newer ones, also known as *light* or *agile*. The turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
+Notice the slide show presents two approaches: The traditional ones, also known as *heavy* or *predictable*, and the newer ones, also known as *light* or *agile*. The turning point in the approaches is [the agile manifesto](http://agilemanifesto.org/), the base of all agile methodologies.
 
-### Dilemma ###
+[This presentation by Eugenia Bahit](http://www.youtube.com/watch?v=W8CuRtCHWD8) (ES) explains the agile manifesto principles demonstrating the differences between predictable methodologies and agile ones, and shows the key existing agile methodologies: *Scrum*, *Kanban* and *XP (eXtreme Programming)*.
 
-Should i follow a software development methodology? Which one should i choose?
+Notice that the presentation puts on the table the difference between predictable and agile methodologies: **the adaptability to changes**.
 
-### Conclusion ###
+### Dilemma 1 ###
 
-Definitely, following a development methodology I will improve the quality of the development process and optimize my productivity.
+Should i use a predictable or an agile methodology for web development?
 
-The agile methodologies seem to fit better with web development for the following reasons:
+### Conclusion 1 ###
+
+The agile methodologies seem to fit better for web development for the following reasons:
 
 * The nature of a web app is to evolve continuously, as the web does.
-* (FREELANCE) The full process is done by small teams, often with only 1 programmer.
-* Often, the client does not know exactly what she wants. This implies there will probably be changes during the development.
+* Often the full process is done by small teams, sometimes with only 1 programmer, or even a freelance full-stack developer and the client.
+* Often the client does not know exactly what she wants. This implies there will probably be changes during the development.
 * To avoid wasting time, the client must be visited often to have feedback about the development progress.
 
-The methodology used should depend for each project theoretically. As any of them are well known to me, seems better to define a mix of the existing agile methodologies and use it for all the projects, while i'm evolving my experience on the matter.
+### Dilema 2 ###
 
-The methodology should focus on the teamwork, and be adapted to the size of the development team.
+There are lots of agile methodologies, but it seems Kanban Scrum and XP are the best options. What methodology should i choose? The methodology should focus on the teamwork and be adapted to the size of the development team because sometimes I work as freelance.
 
-* Scrum. It puts the focus on the teamwork and the interaction with the client.
-* Pomodoro Technique. It helps managing tasks and enhances productivity. Also helps to estimate the time that each task consumes.
-* Xtreme Programming, its principles and philosophy are the day-to-day working basis of a good programmer.
-* Test driven development is the best way to define objectives and reach them quickly.
-    * PRINCIPIOS¿?¿?
-    * TEST DRIVEN DEVELOPMENT
+### Conclusion 2 ###
 
------
+The methodology used should depend for each project theoretically, but the fact is that it depends more on the people on the developing team when using an agile methodology. This includes the client, designers and anyone who has something to do with the project, not only the programmers.
 
-The methodology should deal with the following:
-* Project management: Tasks and time.
-* Programming: principles, philosophy, and conventions.
+The fact is the key existing agile methodologies focus on different aspects of the process:
+
+- **Kanban** focuses on optimizing the workflow, with 3 easy-to-apply rules.
+- **Scrum** focuses on the integrating the client as a team member and on the iteration process, which must deliver a usable and improvable product often. It also helps to show where the problems are and leads the way to solve them each time one appears.
+- **XP** focuses on writing code itself. It raises the values and practices that should be considered *good*, the day-to-day working basis to be a better programmer.
+
+Either if you work in team or alone, as freelance, an agile methodology could help. Delivering often a usable product to the client results in that client collaborates rather than observing the process, giving a valuable feedback. On the freelance case, the relation between the client and the freelance would be considered a "team", because both work together.
+
+I asked [this question on freelancing stackexchange Q&A](http://freelancing.stackexchange.com/questions/381/agile-methodologies-when-developing-software-as-a-freelance) to get feedback about this conclusion.
+
+### Dilema 3 ###
+
+Should I mix all the methodologies or simply pick the good things of each one? What things are the best from each methodology?
+
+### Conclusion 3 ###
+
+It depends on the people on the team, and its experience. *KanBan* is reported to work better for teams used to work with predictable methodologies by its ease, while *Scrum* and *XP* are reported to work well together because the first manages the project progress while the second standarizes the day-to-day programming practices.
+ 
+Any technique from any methodology is good if it improves the productivity and/or quality, helping to do something like:
+
+- Definition, distribution, and prioritization of **tasks**.
+- Estimation and optimization of **time**.
+
+## Tasks and time ###
+
+The management of tasks and time is path to *get the job done*.
 
 # Topics to write about #
+
+* Pomodoro Technique. It helps managing tasks and enhances productivity. Also helps to estimate the time that each task consumes.
+
 
 ## Software design patterns ##
 

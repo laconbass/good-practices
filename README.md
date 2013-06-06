@@ -50,7 +50,7 @@ Should i use a predictable or an agile methodology for web development?
 The agile methodologies seem to fit better for web development for the following reasons:
 
 * The nature of a web app is to evolve continuously, as the web does.
-* Often the full process is done by small teams, sometimes with only 1 programmer, or even a freelance full-stack developer and the client.
+* Often the full process is done by small teams, sometimes with only 1 programmer, or even 1 person.
 * Often the client does not know exactly what she wants. This implies there will probably be changes during the development.
 * To avoid wasting time, the client must be visited often to have feedback about the development progress.
 

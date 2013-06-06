@@ -52,11 +52,11 @@ The agile methodologies seem to fit better for web development for the following
 * The nature of a web app is to evolve continuously, as the web does.
 * Often the full process is done by small teams, sometimes with only 1 programmer, or even 1 person.
 * Often the client does not know exactly what she wants. This implies there will probably be changes during the development.
-* To avoid wasting time, the client must be visited often to have feedback about the development progress.
+* Working close to the client on a daily basis produces a valuable feedback that avoids wasting time.
 
 ### Dilema 2 ###
 
-There are lots of agile methodologies, but it seems Kanban Scrum and XP are the best options. What methodology should i choose? The methodology should focus on the teamwork and be adapted to the size of the development team because sometimes I work as freelance.
+There are lots of agile methodologies, but it seems Kanban, Scrum and XP are the best options as they are the most used. What methodology should i choose? The methodology should focus on the teamwork and be adapted to the size of the development team because sometimes I work as freelance, sometimes as a lone.
 
 ### Conclusion 2 ###
 

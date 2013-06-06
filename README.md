@@ -29,7 +29,7 @@ Developing a website or web app is, essentially, developing software. The human 
 
 There are lots of articles and books to read about this topic. A good quick start point, as overview, is searching for [Software development process on Wikipedia](http://en.wikipedia.org/wiki/Software_development_process), and follow its references.
 
-Prior to introduce the concept of "*software development methodology*" and the benefits of following one,  we will identify the common activities or sub-processes of the development process.
+Prior to introduce the concept of *"software development methodology"* and the benefits of following one,  we will identify the common activities or sub-processes of the development process.
 
 ## Sub-processes of the software development process ##
 

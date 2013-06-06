@@ -104,6 +104,13 @@ Test Driven Development
 http://c2.com/cgi/wiki?TestDrivenDevelopment
 wikipedia?
 
+Behaviour Driven Development 
+http://dannorth.net/introducing-bdd/
+http://www.codeproject.com/Articles/148043/Say-Hello-To-Behavior-Driven-Development-BDD-Part
+User Stories
+http://en.wikipedia.org/wiki/User_story
+
+
 ## Programming principles ##
 
 Don't Repeat Yourself - http://programmer.97things.oreilly.com/wiki/index.php/Don't_Repeat_Yourself

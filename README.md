@@ -40,14 +40,14 @@ During this sub-process the primary task is define the *objectives*. Objectives 
 Given an objective, the goal is define the software requirements to accomplish it. To do that, analysts must keep in consideration the user types and its access limits to the app. This sub-process transforms *objectives* into *requirements*.
 
 ### Design
-Given a *feature*, it's the moment to design how it's going to be implemented. Depending on the feature, several sub-processes are performed, each one producing as result different kind of *designs*.
+Given a *requirement*, it's the moment to design how it's going to be implemented. Depending on the feature, several sub-processes are performed, each one producing as result different kind of *design(s)*.
 
 #### Content design
 The action of designing the way the data will be managed.
 - **Definition and categorization of contents**: Produces *sitemap(s)*.
-- **Data model design**: Where Information Architecture matters
-     - conceptual design: produces *schema(s)*?.
-     - logic design: The implantation of the database itself, based on *schemas*.
+- **Data model design**: Where Information Architecture matters.
+     - Conceptual design: produces *schema(s)*?.
+     - Logic design: The implantation of the database itself, based on *schemas*.
 
 ** see **
 Semantic web - http://schema.org/

@@ -43,14 +43,15 @@ Given an objective, the goal is define the software requirements to accomplish i
 Given a *feature*, it's the moment to design how it's going to be implemented. Depending on the feature, several sub-processes are performed, each one producing as result different kind of *designs*.
 
 #### Content design
+The action of designing the way the data will be managed.
+- **Definition and categorization of contents**: Produces *sitemap(s)*.
+- **Data model design**: Where Information Architecture matters
+     - conceptual design: produces *schema(s)*?.
+     - logic design: The implantation of the database itself, based on *schemas*.
+
+** see **
 Semantic web - http://schema.org/
 book: Information Architecture for the World Wide Web - O'Reilly
-* Sitemap
-* Definition and categorization of contents
-* Data model design
-     * conceptual design
-     * logic design
-     * implantation of the database
 
 #### Visual design
 The action of designing the *User Interface (UI)*. This process implies several sub-processes: 

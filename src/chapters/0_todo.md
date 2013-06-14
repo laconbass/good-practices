@@ -29,6 +29,8 @@ writting code
     - MVA != [MVP](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
 
 - Test Driven Development http://c2.com/cgi/wiki?TestDrivenDevelopment wikipedia?
+- Aceptance Test Driven Development (ATTD)
+    - http://testobsessed.com/2008/12/acceptance-test-driven-development-atdd-an-overview/
 - Behaviour Driven Development 
     - http://dannorth.net/introducing-bdd/
     - http://www.codeproject.com/Articles/148043/Say-Hello-To-Behavior-Driven-Development-BDD-Part
@@ -36,10 +38,12 @@ writting code
 
 - Programming principles
 
+- Book: *A Pragmatic Programmer* [quick reference by stackoverflow founder](http://www.codinghorror.com/blog/2004/10/a-pragmatic-quick-reference.html)
 - Don't Repeat Yourself - http://programmer.97things.oreilly.com/wiki/index.php/Don't_Repeat_Yourself
-- Keep It Simple Stupid - http://people.apache.org/~fhanik/kiss.html
+- [Keep It Simple Stupid](http://people.apache.org/~fhanik/kiss.html)
     - Abstraction principle <=> Rule of three
-- You Aren't Gonna Need It - http://en.wikipedia.org/wiki/You_Aren%27t_Gonna_Need_It
+- [You Aren't Gonna Need It](http://en.wikipedia.org/wiki/You_Aren%27t_Gonna_Need_It)
+- [Principle of least astonishment](http://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 - Don't reinvent the wheel?
 
 - Style Guide
@@ -51,12 +55,18 @@ writting code
     - [google-styleguide](https://code.google.com/p/google-styleguide/)
     - Douglas Crockford's [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 
-Programming language
---------------------
+Programming language: JavaScript
+--------------------------------
 
 - [the book *learning node*, by Shelley Powers](http://shop.oreilly.com/product/0636920024606)
 - [the article *Node: References and resources*, by Shelley Powers](http://tech.burningbird.net/article/node-references-and-resources)
 - [Felix's Node.js Guide](http://nodeguide.com/)
+
+Content design
+--------------
+
+- Semantic HTML
+    - http://html5doctor.com/the-section-element/
 
 Visual design
 -------------

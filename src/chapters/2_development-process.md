@@ -1,10 +1,12 @@
-The development process
-=======================
+The software development process or software life-cycle *(SDLC)*
+================================================================
 
 Developing a website or web app is, essentially, developing software. The human
 knowledge about the software development process has evolved during the years,
 looking for processes that improve productivity and quality. It's important to
 study this evolution and conclude what we will use on our daily practices.
+
+**TALK ABOUT process = life-cycle**
 
 This topic is too wide to be covered it depth here. The main goal of this
 document is describe a set of good practices for web development, not to be

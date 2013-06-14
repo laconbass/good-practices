@@ -1,5 +1,5 @@
 The software development methodology
-------------------------------------
+====================================
 
 The existance of an international standard about the *software development
 process* shows the needs of the industry. The entities having to do something
@@ -83,6 +83,10 @@ Programming)* are the ones whose use is more extended. They are proved to be
 efficient at managing projects whose final result satisfies the customer more
 than the average rate.
 
+* * *
+
+**Conclusion**
+
 This three methodologies focus on different aspects of the process:
 
 - **Kanban** focuses on optimizing the workflow, with 3 easy-to-apply rules.
@@ -106,9 +110,6 @@ well for teams used to work with predictable methodologies by its ease, while
 manages the project progress while the second standardizes the day-to-day
 programming practices.
 
-* * *
-
-**Conclusion**
 
 Any technique from any methodology, even predictable ones, is good if it
 improves the productivity and/or quality, helping to do something like:

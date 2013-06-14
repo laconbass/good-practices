@@ -1,13 +1,52 @@
 TODO: Topics to write about
 =====================
 
-Sub-processes of the software development process
--------------------------------------------------
+XP - http://www.extremeprogramming.org/
+
+
+Diving into sub-processes
+-------------------------
+
+
+To define *requeriments*,
+analysts must keep in consideration the user types and its access limits to the
+app.
+
+On web development,
+*back-end* refers to the server-side code, while *front-end* refers to the
+client-side code. *Full-stack* refers to the whole application code. This
+sub-process transforms *designs* onto *features*.
+
+- Copy pasted from 3_subprocesses
+    - **Content design**: The action of designing the way the data will be managed.
+
+        - **Definition and categorization of contents**: Produces *sitemap(s)*.
+            - **see**
+                - Semantic web - http://schema.org/
+                - book: Information Architecture for the World Wide Web - O'Reilly
+
+        - **Data model design**: Where Information Architecture matters.
+            - **Conceptual design**: produces *schema(s)*?.
+            - **Logic design**: The implantation of the database itself, based on *schemas*.
+
+    - **Visual design**: The action of designing the *User Interface (UI)*. This process implies several sub-processes:
+
+        - **Wireframing**: The action of sketching the UI.
+        - **Iterations design**: The action of designing how the UI responds to the user input.
+        - **Graphics design**: The action of transform the *wireframes* into a graphic design through art, the final appearance of the UI.
 
 (LISTA)
+- Document-oriented databases
+http://stackoverflow.com/questions/2866086/are-document-oriented-databases-meant-to-replace-relational-databases
 
 The proposed methodology
 ------------------------
+
+As said previously on this document,
+
+> A *software development methodology*, in relation to *sub-processes*, is a
+> convention on how they are arranged to develop the *software product*.
+
 
 - Mixin Scrum, XP, and Kanban
 - Time management with the Pomodoro technique

@@ -1,10 +1,21 @@
 TODO: Topics to write about
 =====================
 
-project management
-------------------
+Sub-processes of the software development process
+-------------------------------------------------
+
+(LISTA)
+
+The proposed methodology
+------------------------
+
+- Mixin Scrum, XP, and Kanban
+- Time management with the Pomodoro technique
 
 * Pomodoro Technique. It helps managing tasks and enhances productivity. Also helps to estimate the time that each task consumes.
+
+It is a time management method created by Francesco Cirillo in the 1980s that helps you accomplish what you want to do by transforming time into a valuable ally. Why is it so popular? ﻿Because it is easy to use, and most of all, because it works!
+
 * Time based vs fixed price billing for invoices?? => documentos privados.
 
 writting code
@@ -31,11 +42,21 @@ writting code
 - You Aren't Gonna Need It - http://en.wikipedia.org/wiki/You_Aren%27t_Gonna_Need_It
 - Don't reinvent the wheel?
 
+- Style Guide
+    - [interesting post](http://caolanmcmahon.com/posts/nodejs_style_and_structure/)
+    - [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
+    - [jQuery's Style Guides](http://contribute.jquery.org/style-guide/)
+    - [npm's coding-style](https://npmjs.org/doc/coding-style.html)
+    - [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+    - [google-styleguide](https://code.google.com/p/google-styleguide/)
+    - Douglas Crockford's [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
+
 Programming language
 --------------------
 
 - [the book *learning node*, by Shelley Powers](http://shop.oreilly.com/product/0636920024606)
 - [the article *Node: References and resources*, by Shelley Powers](http://tech.burningbird.net/article/node-references-and-resources)
+- [Felix's Node.js Guide](http://nodeguide.com/)
 
 Visual design
 -------------

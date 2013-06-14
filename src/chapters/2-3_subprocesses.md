@@ -1,7 +1,16 @@
 Sub-processes of the software development process
 -------------------------------------------------
 
-Prior to define our own development process we must identify the common activities or sub-processes of *the software development process*, abstractly speaking.
+
+As said previously on this document,
+
+> A *software development methodology*, in relation to *sub-processes*, is a
+> convention on how they are arranged to develop the *software product*.
+
+Let's identify the common concepts widely used to refer those sub-processes,
+abstractly speaking, prior to define the proposed development methodology,
+consisting of a mix of the key existing agile methodolgies.
+
 
 **WARNING: this enumeration still needs some serious work**
 

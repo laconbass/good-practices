@@ -20,116 +20,140 @@
 <ul>
 <li><a href="#about-this-document"><span class="toc-section-number">1</span> About this document</a><ul>
 <li><a href="#license"><span class="toc-section-number">1.1</span> License</a></li>
-<li><a href="#notice-to-the-reader"><span class="toc-section-number">1.2</span> Notice to the reader</a></li>
-<li><a href="#structure-of-this-document"><span class="toc-section-number">1.3</span> Structure of this document</a></li>
+<li><a href="#goal-of-this-document"><span class="toc-section-number">1.2</span> Goal of this document</a></li>
+<li><a href="#notice-to-the-reader"><span class="toc-section-number">1.3</span> Notice to the reader</a></li>
+<li><a href="#structure-of-this-document"><span class="toc-section-number">1.4</span> Structure of this document</a></li>
 </ul></li>
 <li><a href="#the-development-process"><span class="toc-section-number">2</span> The development process</a><ul>
 <li><a href="#the-software-development-methodology"><span class="toc-section-number">2.1</span> The software development methodology</a><ul>
-<li><a href="#dilemma-predictable-or-agile"><span class="toc-section-number">2.1.1</span> Dilemma: Predictable or Agile?</a></li>
-<li><a href="#conclusion-agile-seems-better-fit"><span class="toc-section-number">2.1.2</span> Conclusion: Agile seems better fit</a></li>
-<li><a href="#dilema-which-is-the-best-are-kanban-scrum-or-xp-sometimes-i-work-alone"><span class="toc-section-number">2.1.3</span> Dilema: Which is the best? Are Kanban, Scrum, or XP? Sometimes I work alone…</a></li>
-<li><a href="#conclusion-all-are-good-and-combinable-together-even-for-loners"><span class="toc-section-number">2.1.4</span> Conclusion: All are good and combinable together, even for loners</a></li>
-<li><a href="#dilema-should-i-mix-all-the-methodologies"><span class="toc-section-number">2.1.5</span> Dilema: Should i mix all the methodologies?</a></li>
-<li><a href="#conclusion-just-mix-the-things-you-need-from-each"><span class="toc-section-number">2.1.6</span> Conclusion: Just mix the things you need from each</a></li>
+<li><a href="#agility-vs-predictability-manifesto-for-agile-software-development"><span class="toc-section-number">2.1.1</span> Agility vs Predictability: <em>Manifesto for Agile Software Development</em></a></li>
+<li><a href="#the-key-existing-agile-methodologies"><span class="toc-section-number">2.1.2</span> The key existing agile methodologies</a></li>
 </ul></li>
-<li><a href="#managing-tasks-and-time"><span class="toc-section-number">2.2</span> Managing tasks and time ??</a></li>
-<li><a href="#sub-processes-of-the-software-development-process"><span class="toc-section-number">2.3</span> Sub-processes of the software development process</a></li>
+<li><a href="#sub-processes-of-the-software-development-process"><span class="toc-section-number">2.2</span> Sub-processes of the software development process</a></li>
+<li><a href="#managing-tasks-and-time"><span class="toc-section-number">2.3</span> Managing tasks and time ??</a></li>
 <li><a href="#writing-code"><span class="toc-section-number">2.4</span> Writing code</a></li>
+<li><a href="#learning-resources"><span class="toc-section-number">2.5</span> Learning resources</a><ul>
+<li><a href="#software-development-methodologies"><span class="toc-section-number">2.5.1</span> Software development methodologies</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#todo-topics-to-write-about"><span class="toc-section-number">3</span> TODO: Topics to write about</a><ul>
-<li><a href="#project-management"><span class="toc-section-number">3.1</span> project management</a></li>
-<li><a href="#writting-code"><span class="toc-section-number">3.2</span> writting code</a></li>
-<li><a href="#programming-language"><span class="toc-section-number">3.3</span> Programming language</a></li>
-<li><a href="#visual-design"><span class="toc-section-number">3.4</span> Visual design</a></li>
-<li><a href="#project-structure"><span class="toc-section-number">3.5</span> Project structure</a></li>
+<li><a href="#sub-processes-of-the-software-development-process-1"><span class="toc-section-number">3.1</span> Sub-processes of the software development process</a></li>
+<li><a href="#the-proposed-methodology"><span class="toc-section-number">3.2</span> The proposed methodology</a></li>
+<li><a href="#writting-code"><span class="toc-section-number">3.3</span> writting code</a></li>
+<li><a href="#programming-language"><span class="toc-section-number">3.4</span> Programming language</a></li>
+<li><a href="#visual-design"><span class="toc-section-number">3.5</span> Visual design</a></li>
+<li><a href="#project-structure"><span class="toc-section-number">3.6</span> Project structure</a></li>
 </ul></li>
 </ul>
 </nav>
 <section class="level1" id="about-this-document">
 <h1><a href="#TOC"><span class="header-section-number">1</span> About this document</a></h1>
+<p>Below is the legal information and some first-person notices from the author of the document. Please, read them carefully.</p>
 <section class="level2" id="license">
 <h2><a href="#TOC"><span class="header-section-number">1.1</span> License</a></h2>
-<p>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.</p>
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0/</a>.</p>
+</section>
+<section class="level2" id="goal-of-this-document">
+<h2><a href="#TOC"><span class="header-section-number">1.2</span> Goal of this document</a></h2>
+<p>The main goal of this document is describe a set of good practices for web development. This practices are not only related to the implementation, they are related with the entire development process. This document describes both the recommended development methodology to accomplish a whole project as the recommended practices to use on a day-to-day basis or deal with common problems.</p>
 </section>
 <section class="level2" id="notice-to-the-reader">
-<h2><a href="#TOC"><span class="header-section-number">1.2</span> Notice to the reader</a></h2>
+<h2><a href="#TOC"><span class="header-section-number">1.3</span> Notice to the reader</a></h2>
 <p>This document attempts to address the topics with objectivity, but the conclusions are subjective.</p>
 <p>Conclusions are my personal criterion, formed after hours of self-taught reading of books and articles, and my experience and knowledge on programming.</p>
-<p>Any developer should consider personally if agree or not each conclusion written here. Read further about each topic and make your own decisions.</p>
+<p>You should consider personally if agree or not each conclusion written here, read further about each topic and make your own decisions.</p>
+<p>The good practices proposed by this manual are like the conclusions described above.</p>
 <p>Ensure to read news often and evolve your best practices manual continuously. Tomorrow something may have changed, or nothing, or everything.</p>
 </section>
 <section class="level2" id="structure-of-this-document">
-<h2><a href="#TOC"><span class="header-section-number">1.3</span> Structure of this document</a></h2>
-<p>This document has several parts which group topics and provide resources to introduce them. Each topic has special subsections:</p>
+<h2><a href="#TOC"><span class="header-section-number">1.4</span> Structure of this document</a></h2>
+<p><strong>WARNING: The structure of this document is still under discussion</strong></p>
+<p>At first, the concept of <em>software development process</em> is introduced. Below, each step on the process and the good practices related are explained.</p>
+<p>Some good practices have an underlying <em>dilema</em>. A <em>dilema</em> is a set of solutions to the concerned problem, all considered good by the development community or by different sectors of it. <em>Dilemmas</em> are often solved through a pros and cons analysis.</p>
+<p>Good practices are subjetive conclusions so there are several grades depending on how subjective they are. Each good practice has a flag which measures its grade.</p>
 <ul>
-<li><em>Dilemma</em>: A question representing a decision that must be done.</li>
-<li><em>Conclusion</em>: The decision and arguments for how and why.</li>
+<li><p><strong>Best Practice</strong>: A practice well known on the development community that has proven to be the best choice. This flag means there is a widely extended consensus about this topic on the development community.</p></li>
+<li><p><strong>I recommend</strong>: My criterion about a topic or <em>dilema</em> and the arguments for how and why I’ve taken this decision. This flag means there is a debate on the development community but I’ve concluded this one is the better choice.</p></li>
+<li><p><strong>Conclusion</strong>: A questionable recommendation done as from my theorycal knowledge of the addressed topic. This flag means I don’t have enough experience on the matter to flag this as <em>I recommend</em>, but an analysis brought me to conclude this is the better choice. Each <em>Conclusion</em> has an underlying dilema.</p></li>
 </ul>
 </section>
 </section>
 <section class="level1" id="the-development-process">
 <h1><a href="#TOC"><span class="header-section-number">2</span> The development process</a></h1>
 <p>Developing a website or web app is, essentially, developing software. The human knowledge about the software development process has evolved during the years, looking for processes that improve productivity and quality. It’s important to study this evolution and conclude what we will use on our daily practices.</p>
-<p>This topic is too wide to be covered it depth here. There are lots of articles and books to read about this topic, if the reader wants to deep into. A good quick start point, as overview, is searching for <a href="http://en.wikipedia.org/wiki/Software_development_process">Software development process on Wikipedia</a>, and following its references.</p>
-<p><strong>I should talk here about the benefits of defining and following a software development process</strong></p>
+<p>This topic is too wide to be covered it depth here. The main goal of this document is describe a set of good practices for web development, not to be a theoretically reference about the development of information systems. There are lots of articles and books to read about this topic, if the reader wants to deep into it. A good quick start point, as overview, is searching for <a href="http://en.wikipedia.org/wiki/Software_development_process">“Software development process” on Wikipedia</a>, and following its references.</p>
+<p>Below is a brief summary of the key concepts the reader must know to continue the reading as they are used wide along this document. They are abstract concepts, but are easy to understand.</p>
+<ol type="1">
+<li><p>A <em>software product</em> is an end-user software, an application which can be used to satisfy some need.</p></li>
+<li><p>The <em>software development process</em>, <em>software development life-cycle (SDLC)</em>, or <em>software life-cycle</em> refers to the whole process of creating or altering a <em>software product</em>. The <em>software development process</em> itself is divided into several <em>sub-processes</em>.</p></li>
+<li><p>A <em>sub-process</em> or, generally speaking, <em>sub-processes</em> are the common activities performed during the development of any <em>software product</em>, the phases of the <em>software life-cycle</em>.</p></li>
+<li><p>A <em>software development methodology</em> is a framework that is used to structure, plan, and control the <em>software development process</em>. In relation to <em>sub-processes</em>, is a convention on how they are arranged to develop the <em>software product</em>. This topic will be covered in depth shortly.</p></li>
+</ol>
+<p><strong>Important notes</strong>:</p>
+<ul>
+<li><p>This document will address the concept of <em>sub-process</em> - i.e. the <em>“analysis”</em> or <em>“design”</em> sub-processes - with different approaches, referring to a concrete development methodology or regardless it. The reader must keep an eye in the context to perform a well understanding of the meaning.</p></li>
+<li><p>The international standard <a href="http://www.math.unipd.it/~tullio/IS-1/2009/Approfondimenti/ISO_12207-2008.pdf">ISO 12207:2008</a> <em>establishes a common framework for software life cycle processes, with well-defined terminology, that can be referenced by the software industry.</em> This document has been written regardless this standard so maybe it doesn’t fit with it. This ISO is a good resource to deep into the concept of <em>software life cycle</em> and the understanding of its phases.</p></li>
+</ul>
 <section class="level2" id="the-software-development-methodology">
 <h2><a href="#TOC"><span class="header-section-number">2.1</span> The software development methodology</a></h2>
-<p><strong>WARNING: this chapter abuses on links, needs more writting</strong></p>
-<p><a href="http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf">This slide show written by Hamid Faridani</a> introduces well the concept of <em>software development methodology</em> and some existing key methodologies. It also gives keys to decide the methodology to be used for a concrete project.</p>
-<p>Notice the slide show presents two approaches: The traditional ones, also known as <em>heavy</em> or <em>predictable</em>, and the newer ones, also known as <em>light</em> or <em>agile</em>. The turning point in the approaches is <a href="http://agilemanifesto.org/">the agile manifesto</a>, the base of all agile methodologies.</p>
-<p><a href="http://www.youtube.com/watch?v=W8CuRtCHWD8">This presentation by Eugenia Bahit</a> (ES) explains the agile manifesto principles demonstrating the differences between predictable methodologies and agile ones, and shows the key existing agile methodologies: <em>Scrum</em>, <em>Kanban</em> and <em>XP (eXtreme Programming)</em>.</p>
-<p>Notice that the presentation puts on the table the difference between predictable and agile methodologies: <strong>the adaptability to changes</strong>.</p>
-<section class="level3" id="dilemma-predictable-or-agile">
-<h3><a href="#TOC"><span class="header-section-number">2.1.1</span> Dilemma: Predictable or Agile?</a></h3>
-<p>Should i use a predictable or an agile methodology for web development?</p>
+<p>The existance of an international standard about the <em>software development process</em> shows the needs of the industry. The entities having to do something with a project need a common workflow to interact between them in order to deliver the project on time, on budget. Here is where a <em>software development methodology</em> becomes useful, if correctly applied.</p>
+<p>Hamid Faridani, an expert on project management currently working for IBM, <a href="http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf">stated</a>:</p>
+<blockquote>
+<p>A software development methodology is a structure imposed on the development of a software product. It includes procedures, techniques, tools, and documentation aids which will help to succeed on the development process. The intent of a methodology is to formalize what is being done, making it more repeatable.</p>
+</blockquote>
+<p><strong>STUDY STUFF FROM HAMID PRESENTATION???</strong></p>
+<section class="level3" id="agility-vs-predictability-manifesto-for-agile-software-development">
+<h3><a href="#TOC"><span class="header-section-number">2.1.1</span> Agility vs Predictability: <em>Manifesto for Agile Software Development</em></a></h3>
+<p>There are a number of known development methodologies whose use is more or less extended. They can be divided in two groups, as there are two different approaches: The traditional ones, also known as <em>heavy</em> or <em>predictable</em>, and the newer ones, also known as <em>light</em> or <em>agile</em>. The turning point in the approaches is the publication of <a href="http://agilemanifesto.org/"><em>Manifesto for Agile Software Development</em></a> in February 2001.</p>
+<p>The agile manifesto, in its entirety, describes the differences between the predictable methodologies and the agile ones. In fact, it describes exactly as the opposite, as follows:</p>
+<blockquote>
+<p>We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:</p>
+<ol type="1">
+<li>Individuals and interactions over processes and tools</li>
+<li>Working software over comprehensive documentation</li>
+<li>Customer collaboration over contract negotiation</li>
+<li>Responding to change over following a plan</li>
+</ol>
+<p>That is, while there is value in the items on the right, we value the items on the left more.</p>
+</blockquote>
+<p>In a nutshell, the main difference between predictable and agile methodologies is <strong>the adaptability to changes</strong>.</p>
+<hr>
+<p><strong>Conclusion</strong></p>
+<p>The agile methodologies seem to better fit web development needs, specially, for their ability to adapt to changes. The nature of a web app, and the web itself, is to evolve continuously and this adaptability to changes is crucial. Also the customer often does not know exactly what she want, and this implies there will probably be changes during the development.</p>
+<p>In addition, agile methodologies ease working close to the customer on a daily basis, and this fact produces a valuable feedback that avoids wasting time. This is achieved due to iteractions, where delivering often a usable product to the customer results in that customer collaborates rather than observing the process.</p>
+<p>They also fit perfectly for small teams, which are the nowadays reality on the industry, and can be easy adapted to very small teams, even to the case of a lone freelancer and a customer.</p>
+<p>I asked <a href="http://freelancing.stackexchange.com/questions/381/agile-methodologies-when-developing-software-as-a-freelance">this question on freelancing SE</a> to get feedback about the conclusion on the lone freelance case.</p>
+<hr>
 </section>
-<section class="level3" id="conclusion-agile-seems-better-fit">
-<h3><a href="#TOC"><span class="header-section-number">2.1.2</span> Conclusion: Agile seems better fit</a></h3>
-<p>The agile methodologies seem to fit better for web development for the following reasons:</p>
-<ul>
-<li>The nature of a web app is to evolve continuously, as the web does.</li>
-<li>Often the full process is done by small teams, sometimes with only 1 programmer, or even 1 person.</li>
-<li>Often the client does not know exactly what she wants. This implies there will probably be changes during the development.</li>
-<li><strong>Working close to the client on a daily basis produces a valuable feedback that avoids wasting time.</strong>???</li>
-</ul>
-</section>
-<section class="level3" id="dilema-which-is-the-best-are-kanban-scrum-or-xp-sometimes-i-work-alone">
-<h3><a href="#TOC"><span class="header-section-number">2.1.3</span> Dilema: Which is the best? Are Kanban, Scrum, or XP? Sometimes I work alone…</a></h3>
-<p>There are lots of agile methodologies, but it seems <em>Kanban</em>, <em>Scrum</em> and <em>XP</em> are the best options as they are the most used. The methodology should focus on the teamwork and be adapted to the size of the development team because sometimes I work as freelance, sometimes as a lone. What methodology should i choose?</p>
-</section>
-<section class="level3" id="conclusion-all-are-good-and-combinable-together-even-for-loners">
-<h3><a href="#TOC"><span class="header-section-number">2.1.4</span> Conclusion: All are good and combinable together, even for loners</a></h3>
-<p>The methodology used should depend for each project theoretically, but the fact is that it depends more on the people on the developing team when using an agile methodology. This includes the client, designers and anyone who has something to do with the project, not only the programmers.</p>
-<p>The fact is the key existing agile methodologies focus on different aspects of the process:</p>
+<section class="level3" id="the-key-existing-agile-methodologies">
+<h3><a href="#TOC"><span class="header-section-number">2.1.2</span> The key existing agile methodologies</a></h3>
+<p>There are lots of agile methodologies, but <em>Kanban</em>, <em>Scrum</em> and <em>XP (eXtreme Programming)</em> are the ones whose use is more extended. They are proved to be efficient at managing projects whose final result satisfies the customer more than the average rate.</p>
+<p>This three methodologies focus on different aspects of the process:</p>
 <ul>
 <li><strong>Kanban</strong> focuses on optimizing the workflow, with 3 easy-to-apply rules.</li>
-<li><strong>Scrum</strong> focuses on the integrating the client as a team member and on the iteration process, which must deliver a usable and improvable product often. It also helps to show where the problems are and leads the way to solve them each time one appears.</li>
+<li><strong>Scrum</strong> focuses on the integration of the customer as a team member and on the iteration process, which must deliver a usable and improvable product often. It also helps to show where the problems are and leads the way to solve them each time one appears.</li>
 <li><strong>XP</strong> focuses on writing code itself. It raises the values and practices that should be considered <em>good</em>, the day-to-day working basis to be a better programmer.</li>
 </ul>
-<p>Either if you work in team or alone, as freelance, an agile methodology could help. Delivering often a usable product to the client results in that client collaborates rather than observing the process, giving a valuable feedback. On the freelance case, the relation between the client and the freelance would be considered a “team”, because both work together.</p>
-<p>I asked <a href="http://freelancing.stackexchange.com/questions/381/agile-methodologies-when-developing-software-as-a-freelance">this question on freelancing SE</a> to get feedback about this conclusion.</p>
-</section>
-<section class="level3" id="dilema-should-i-mix-all-the-methodologies">
-<h3><a href="#TOC"><span class="header-section-number">2.1.5</span> Dilema: Should i mix all the methodologies?</a></h3>
-<p>Should I mix all the methodologies or simply pick the good things of each one? What things are the best from each methodology?</p>
-</section>
-<section class="level3" id="conclusion-just-mix-the-things-you-need-from-each">
-<h3><a href="#TOC"><span class="header-section-number">2.1.6</span> Conclusion: Just mix the things you need from each</a></h3>
-<p>It depends on the people on the team, and its experience. <em>KanBan</em> is reported to work better for teams used to work with predictable methodologies by its ease, while <em>Scrum</em> and <em>XP</em> are reported to work well together because the first manages the project progress while the second standarizes the day-to-day programming practices.</p>
-<p>Any technique from any methodology is good if it improves the productivity and/or quality, helping to do something like:</p>
+<p>The methodology used will depend for each project theoretically, but the fact is that it depends more on the people on the developing team when using an agile methodology. This includes the customer, designers and anyone who has something to do with the project, not only the programmers.</p>
+<p>The reason above makes the choice of the development methodology depend on the people on the team, and its experience. <em>KanBan</em> has been reported to work well for teams used to work with predictable methodologies by its ease, while <em>Scrum</em> and <em>XP</em> have been reported to work well together because the first manages the project progress while the second standardizes the day-to-day programming practices.</p>
+<hr>
+<p><strong>Conclusion</strong></p>
+<p>Any technique from any methodology, even predictable ones, is good if it improves the productivity and/or quality, helping to do something like:</p>
 <ul>
 <li>Definition, distribution, and prioritization of <strong>tasks</strong>.</li>
 <li>Estimation and optimization of <strong>time</strong>.</li>
 </ul>
+<p>The previous assertion, the fact that the three proposed methodologies focus on different aspects of the process, and the reports of them working well tothether are the reasons to conclude that mixing Scrum, XP, and Kanban will provide the benefits of each methodology.</p>
+<hr>
 </section>
-</section>
-<section class="level2" id="managing-tasks-and-time">
-<h2><a href="#TOC"><span class="header-section-number">2.2</span> Managing tasks and time ??</a></h2>
-<p>The management of tasks and time is path to <em>get the job done</em>.</p>
 </section>
 <section class="level2" id="sub-processes-of-the-software-development-process">
-<h2><a href="#TOC"><span class="header-section-number">2.3</span> Sub-processes of the software development process</a></h2>
-<p>Prior to define our own development process we must identify the common activities or sub-processes of <em>the software development process</em>, abstractly speaking.</p>
+<h2><a href="#TOC"><span class="header-section-number">2.2</span> Sub-processes of the software development process</a></h2>
+<p>As said previously on this document,</p>
+<blockquote>
+<p>A <em>software development methodology</em>, in relation to <em>sub-processes</em>, is a convention on how they are arranged to develop the <em>software product</em>.</p>
+</blockquote>
+<p>Let’s identify the common concepts widely used to refer those sub-processes, abstractly speaking, prior to define the proposed development methodology, consisting of a mix of the key existing agile methodolgies.</p>
 <p><strong>WARNING: this enumeration still needs some serious work</strong></p>
 <ul>
 <li><p><strong>Planing</strong>: During this sub-process the primary task is define the <em>objectives</em>. Objectives are the features the software must have.</p></li>
@@ -165,21 +189,59 @@
 <li><p><strong>Upkeep and Optimization</strong>: This sub-process includes the tasks related to bug fixes and improvements on appearance or performance.</p></li>
 </ul>
 </section>
+<section class="level2" id="managing-tasks-and-time">
+<h2><a href="#TOC"><span class="header-section-number">2.3</span> Managing tasks and time ??</a></h2>
+<p>The management of tasks and time is path to <em>get the job done</em>.</p>
+</section>
 <section class="level2" id="writing-code">
 <h2><a href="#TOC"><span class="header-section-number">2.4</span> Writing code</a></h2>
+</section>
+<section class="level2" id="learning-resources">
+<h2><a href="#TOC"><span class="header-section-number">2.5</span> Learning resources</a></h2>
+<p>The following are online resources to learn more about the topics covered in this document.</p>
+<section class="level3" id="software-development-methodologies">
+<h3><a href="#TOC"><span class="header-section-number">2.5.1</span> Software development methodologies</a></h3>
+<p><strong>English</strong>:</p>
+<ul>
+<li><a href="http://www.gtislig.org/HamidFaridani_GuideToSelectingSWMethodologies_SOC_PDD_20110305.pdf">Guide to selecting software development methodologies, by Hamid Faridani</a> explains:
+<ul>
+<li>The concept of <em>software development methodology</em>.</li>
+<li>The benefits of following one.</li>
+<li>Some existing key methodologies.</li>
+<li>The keys to decide the methodology to be used for a concrete project.</li>
+</ul></li>
+</ul>
+<p><strong>Spanish</strong>:</p>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=W8CuRtCHWD8">Talk by Eugenia Bahit</a> explains:
+<ul>
+<li>explains <a href="http://agilemanifesto.org/">the agile manifesto</a> principles as differences between predictable methodologies and agile ones.</li>
+<li>Shows the key existing agile methodologies: <em>Scrum</em>, <em>Kanban</em> and <em>XP</em></li>
+</ul></li>
+</ul>
+</section>
 </section>
 </section>
 <section class="level1" id="todo-topics-to-write-about">
 <h1><a href="#TOC"><span class="header-section-number">3</span> TODO: Topics to write about</a></h1>
-<section class="level2" id="project-management">
-<h2><a href="#TOC"><span class="header-section-number">3.1</span> project management</a></h2>
+<section class="level2" id="sub-processes-of-the-software-development-process-1">
+<h2><a href="#TOC"><span class="header-section-number">3.1</span> Sub-processes of the software development process</a></h2>
+<p>(LISTA)</p>
+</section>
+<section class="level2" id="the-proposed-methodology">
+<h2><a href="#TOC"><span class="header-section-number">3.2</span> The proposed methodology</a></h2>
 <ul>
-<li>Pomodoro Technique. It helps managing tasks and enhances productivity. Also helps to estimate the time that each task consumes.</li>
+<li>Mixin Scrum, XP, and Kanban</li>
+<li><p>Time management with the Pomodoro technique</p></li>
+<li><p>Pomodoro Technique. It helps managing tasks and enhances productivity. Also helps to estimate the time that each task consumes.</p></li>
+</ul>
+<p>It is a time management method created by Francesco Cirillo in the 1980s that helps you accomplish what you want to do by transforming time into a valuable ally. Why is it so popular? ﻿Because it is easy to use, and most of all, because it works!</p>
+<ul>
 <li>Time based vs fixed price billing for invoices?? =&gt; documentos privados.</li>
 </ul>
 </section>
 <section class="level2" id="writting-code">
-<h2><a href="#TOC"><span class="header-section-number">3.2</span> writting code</a></h2>
+<h2><a href="#TOC"><span class="header-section-number">3.3</span> writting code</a></h2>
 <ul>
 <li>choosing the software development method.</li>
 <li><p>Enhancing the methodology with support disciplines</p></li>
@@ -203,23 +265,34 @@
 </ul></li>
 <li>You Aren’t Gonna Need It - http://en.wikipedia.org/wiki/You_Aren%27t_Gonna_Need_It</li>
 <li><p>Don’t reinvent the wheel?</p></li>
+<li>Style Guide
+<ul>
+<li><a href="http://caolanmcmahon.com/posts/nodejs_style_and_structure/">interesting post</a></li>
+<li><a href="http://nodeguide.com/style.html">Felix’s Node.js Style Guide</a></li>
+<li><a href="http://contribute.jquery.org/style-guide/">jQuery’s Style Guides</a></li>
+<li><a href="https://npmjs.org/doc/coding-style.html">npm’s coding-style</a></li>
+<li><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google JavaScript Style Guide</a></li>
+<li><a href="https://code.google.com/p/google-styleguide/">google-styleguide</a></li>
+<li>Douglas Crockford’s <a href="http://javascript.crockford.com/code.html">Code Conventions for the JavaScript Programming Language</a></li>
+</ul></li>
 </ul>
 </section>
 <section class="level2" id="programming-language">
-<h2><a href="#TOC"><span class="header-section-number">3.3</span> Programming language</a></h2>
+<h2><a href="#TOC"><span class="header-section-number">3.4</span> Programming language</a></h2>
 <ul>
 <li><a href="http://shop.oreilly.com/product/0636920024606">the book <em>learning node</em>, by Shelley Powers</a></li>
 <li><a href="http://tech.burningbird.net/article/node-references-and-resources">the article <em>Node: References and resources</em>, by Shelley Powers</a></li>
+<li><a href="http://nodeguide.com/">Felix’s Node.js Guide</a></li>
 </ul>
 </section>
 <section class="level2" id="visual-design">
-<h2><a href="#TOC"><span class="header-section-number">3.4</span> Visual design</a></h2>
+<h2><a href="#TOC"><span class="header-section-number">3.5</span> Visual design</a></h2>
 <ul>
 <li>Interaction design &amp; User experience: http://www.interaction-design.org/</li>
 </ul>
 </section>
 <section class="level2" id="project-structure">
-<h2><a href="#TOC"><span class="header-section-number">3.5</span> Project structure</a></h2>
+<h2><a href="#TOC"><span class="header-section-number">3.6</span> Project structure</a></h2>
 <p>ver mapa conceptual en mindmeister…</p>
 </section>
 </section>

@@ -1,7 +1,8 @@
 chapters/1_warnings.md
 chapters/2-0_introduction.md
 chapters/2-1_methodologies.md
-chapters/2-x_project-management.md
 chapters/2-3_subprocesses.md
+chapters/2-x_project-management.md
 chapters/2-x_writing-code.md
+chapters/0_bibliography.md
 chapters/0_todo.md

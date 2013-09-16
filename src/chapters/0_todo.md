@@ -104,8 +104,15 @@ Programming language: JavaScript
 Content design
 --------------
 
+- Markdown
 - Semantic HTML
     - http://html5doctor.com/the-section-element/
+    
+- Data Validation => Schemas
+    - [json-schema](http://json-schema.org/)
+    - [YAML](http://yaml.org/)
+    - [is YAML dead?](http://curiousprogrammer.wordpress.com/2010/07/09/yaml-is-not-dead/)
+    - [rx](http://rx.codesimply.com/)
 
 Visual design
 -------------
